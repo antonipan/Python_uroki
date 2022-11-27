@@ -185,29 +185,37 @@ text = 'Хорошая сегодня погода! Не правда ли?'
 # СПИСКИ
 
 # numbers = [1,2,3,4,5]
-# # ran = range(1,6)
-# # print(type(ran))
-# # numbers = list(ran)
-# # print(type(numbers))
+# ran = range(1,3)
+# print(type(ran))
+# numbers = list(ran)
+# print(type(numbers))
 # print(numbers)
 # numbers[0] = 10
 # print(numbers)
 # print(f'{len(numbers)} len')
-# for i in numbers:
-#     numbers[i] *=2
-# print(numbers)
-# 
+# for i in range(0, 3):
+#     i *= 2
+#     print(i)
+
+# text = "Это не те дроиды, которых вы ищет"
+# new_text = ""
+# for char in enumerate(text):
+#     if char[0] % 5 == 0:
+#         new_text += '*'
+#     else:
+#         new_text += char[1]
+# print(new_text)
 # Можно добавить или убрать из списка элемент.
 
 def f(a):
-    if a == 1:
+    if a < 1:
         return 'Celoe'
     elif a == 2.3:
         return 23
     else:
         return
 
-arg = 2
+# arg = -4
 
-print(f(arg))
-print(type(f(arg)))
+# print(f(arg))
+# print(type(f(arg)))
