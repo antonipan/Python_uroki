@@ -1,15 +1,1 @@
-greenblueyellowblackredLINE.2
-LINE.2
-LINE.3
-
-LINE.12
-LINE.13
-
-LINE.121
-LINE.131
-
-LINE.121
-LINE.131
-
-LINE.11
-LINE.33
+1
