@@ -22,31 +22,31 @@
 # calcul(calc1, 5) # передаём только название
 # calcul(calc, 30)
 
-def sum(x, y):
-    return x + y
+# def sum(x, y):
+#     return x + y
 
-f = lambda q, w: q + w + 1
+# f = lambda q, w: q + w + 1
 
-def mult(x, y):
-    return x * y
+# def mult(x, y):
+#     return x * y
 
-def calc(op, a, b):
-    print(op(a, b))
+# def calc(op, a, b):
+#     print(op(a, b))
 
-calc(f, 3, 8)
+# calc(f, 3, 8)
 
-calc(lambda r, s: s*r, 4, 5)
+# calc(lambda r, s: s*r, 4, 5)
 
 # def f(x):
 #     return x**3
 # list = [(i, f(i)) for i in range(1, 21) if i%2 == 0]
 # print(list)
 
-def fun(x):
-    return x ** 2
-listok = [1,2,3,8,15,23,38]
-quadro = [(i, fun(i)) for i in listok if i%2 == 0]
-print(quadro)
+# def fun(x):
+#     return x ** 2
+# listok = [1,2,3,8,15,23,38]
+# quadro = [(i, fun(i)) for i in listok if i%2 == 0]
+# print(quadro)
 # def sum(x):
 #     return x+10
 # def mult(x):
@@ -106,27 +106,30 @@ print(quadro)
 #  out.append((e,e **2))
 # print(out)
 
-def select(f, col):
-    return [f(x) for x in col]
-def where(f, col):
-    return [x for x in col if f(x)]
-data = '1 2 3 5 8 15 23 38'.split()
-data = select(int, data)
-data = where(lambda e: not e % 2, data)
-data = list(select(lambda e: (e, e**2), data))
+# def select(f, col):
+#     return [f(x) for x in col]
+# def where(f, col):
+#     return [x for x in col if f(x)]
+# data = '1 2 3 5 8 15 23 38'.split()
+# data = select(int, data)
+# data = where(lambda e: not e % 2, data)
+# data = list(select(lambda e: (e, e**2), data))
 
-def select(f, col):
-    return [f(x) for x in col]
-def where(f, col):
-    return [x for x in col if f(x)]
-data = '1 2 3 5 8 15 23 38'.split()
-data = select(int, data)
-data = where(lambda e: not e % 2, data)
-data = list(select(lambda e: (e, e**2), data))
+# def select(f, col):
+#     return [f(x) for x in col]
+# def where(f, col):
+#     return [x for x in col if f(x)]
+# data = '1 2 3 5 8 15 23 38'.split()
+# data = select(int, data)
+# data = where(lambda e: not e % 2, data)
+# data = list(select(lambda e: (e, e**2), data))
 
 data = '1 2 3 5 8 15 23 38'.split()
+print(data)
 data = list(map(int, data))
+print(data)
 data = list(filter(lambda e: not e % 2, data))
+print(data)
 data = list(map(lambda e: (e, e**2), data))
 print(data)
 
@@ -177,16 +180,16 @@ print(data)
 # # [exp <if conditional> for item in iterable (if conditional)]
 
 
-data = [x for x in range(10)]
-res = list(filter(lambda x: not x % 2 , data))
-print(res)
+# data = [x for x in range(10)]
+# res = list(filter(lambda x: not x % 2 , data))
+# print(res)
 
-users = ['u1', 'u2', 'u3', 'u4', 'u5']
-ids = [1, 2, 3, 4, 5]
-salary = [111,222,333]
+# users = ['u1', 'u2', 'u3', 'u4', 'u5']
+# ids = [1, 2, 3, 4, 5]
+# salary = [111,222,333]
 
-# data = list(zip(users, ids, salary))
-data = list(enumerate(users))
-print(data)
+# # data = list(zip(users, ids, salary))
+# data = list(enumerate(users))
+# print(data)
 
-enumerate
+# enumerate
