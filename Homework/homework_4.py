@@ -71,7 +71,7 @@ for i in range(k, -1, -1):
     j += 1
 print(equation)
 
-data = open ('file_equ.txt', 'w')
+data = open ('../Lessons/file_equ.txt', 'w')
 data.write(equation)
 data.close()
 

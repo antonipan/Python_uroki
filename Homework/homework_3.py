@@ -54,7 +54,7 @@ for el in some_list2:
             minn = float
 
 print('Задача 4')
-
+# Приведите число в бинарный код
 n = int(input('Введите любое число: '))
 inv_binari = ''
 while n > 0:

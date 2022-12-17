@@ -40,7 +40,7 @@
 # print(list(enumerate(some_list)))
 
 # Задача №35
-data = open('natur.txt', 'r')
+data = open('../Lessons/natur.txt', 'r')
 f = data.read()
 some_list = list(map(int, f.split(' ')))
 for i in range(1, len(some_list)):

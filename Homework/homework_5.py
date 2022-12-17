@@ -1,29 +1,29 @@
-# print ('hello world')
-# # Программа записывает в файл слова, читает их, 
-# # Ищет среди них слова "о" и "л" и записывает в новый файл
-# words = open('words.txt', 'w', encoding='utf-8')
-# for _ in range(6):
-#     words.writelines(input('Введите слово: '))
-#     words.writelines('\n')
-# words.close()
+print ('hello world')
+# Программа записывает в файл слова, читает их, 
+# Ищет среди них слова "о" и "л" и записывает в новый файл
+words = open('words.txt', 'w', encoding='utf-8')
+for _ in range(6):
+    words.writelines(input('Введите слово: '))
+    words.writelines('\n')
+words.close()
 
-# some_list = list(open('words.txt', 'r', encoding='utf-8'))
-# # print(some_list)
-# out_list = []
-# for i in range (0, len(some_list)):
-#     if 'о' and 'л' not in some_list[i]:
-#         replace = some_list[i]
-#         some_list[i] = replace[:-1]
-#         out_list.append(some_list[i])      
-# # print(out_list)
+some_list = list(open('words.txt', 'r', encoding='utf-8'))
+# print(some_list)
+out_list = []
+for i in range (0, len(some_list)):
+    if 'о' and 'л' not in some_list[i]:
+        replace = some_list[i]
+        some_list[i] = replace[:-1]
+        out_list.append(some_list[i])      
+# print(out_list)
 
-# data = open('res_words.txt', 'w', encoding='utf-8')
-# for i in out_list:
-#     data.writelines(i)
-#     data.writelines('\n')
-# data.close()
+data = open('res_words.txt', 'w', encoding='utf-8')
+for i in out_list:
+    data.writelines(i)
+    data.writelines('\n')
+data.close()
 
-# # Игра в крестики-нолики на двух игроков, игровое поле - 3х3.
+# Игра в крестики-нолики на двух игроков, игровое поле - 3х3.
 
 
 print('Перед вами игровое поле')
